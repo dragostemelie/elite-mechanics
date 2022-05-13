@@ -63,6 +63,7 @@ export const NavItem = styled.a`
 export const Mobile = styled.div`
   position: fixed;
   bottom: 200px;
+  width: fit-content;
   right: 0;
   transition: 0.5s linear;
   z-index: 10;

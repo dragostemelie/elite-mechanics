@@ -154,6 +154,9 @@ export const ImageWrapper = styled.div`
     height: 100%;
     object-fit: cover;
     min-width: 130%;
+    @media (max-width: 960px) {
+      height: initial;
+    }
   }
   & #forward {
     cursor: crosshair;
